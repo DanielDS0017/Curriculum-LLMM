@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="proceso.php" method="post">
+
+
+<fieldset> 
+        <legend> <b> Datos Personales</b></legend>
+
+<p>Nombre <input type="text" name="Nombre" id=""></p>
+    <p>Apellidos <input type="text" name="Apellidos" id=""></p>
+        <p>Edad <input type="number" name="Edad" id=""></p>
+
+       <p> Genero</p> 
+            <p>Hombre <input type="radio" name=" Hombre" value="h">
+                Mujer <input type="radio" name=" mujer" value="m"></p>
+
+     
+
+</fieldset>
+
+<fieldset> 
+    <legend> <b> Contactos</b></legend>
+
+<p>E-mail <input type="text" name="E-mail" id=""></p>
+    <p>CodigoPostal <input type="text" name="Codigo Postal" id=""></p>
+        <p>Dirección <input type="text" name="Domicilio" id=""></p>
+
+        Ciudad: 
+            <select name="Selecciona una ciudad" id="">
+
+                    <option value="Jaén">Jaén </option>
+                    <option value="Cordoba"> Cordoba</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Malaga">Malaga</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Almeria">Almeria</option>
+                    
+            </select><br><br>
+
+            Contraseña <input type="password" name=" Contraseña" size= 5>
+            
+                    
+</fieldset>
+
+<fieldset> 
+    <legend> <b> Datos de Interes </b></legend>
+
+    <p> Estado Civil </p> 
+            <p>Casado/a <input type="radio" name=" Casado/a" value="S">
+                No Casado/a <input type="radio" name=" No Casado/a" value="N"></p>
+
+
+    <p>Hobbies</p>
+            
+                <input type="checkbox" name="Hobbies" value="Deportes"> Deportes
+                <input type="checkbox" name="Hobbies" value="Videojuegos"> Videojuegos
+                <input type="checkbox" name="Hobbies" value="Bailar"> Bailar
+                <input type="checkbox" name="Hobbies" value=" Cantar"> Cantar
+                <input type="checkbox" name="Hobbies" value="Paintar"> Pintar
+
+
+            </select>
+
+</fieldset>
+
+<fieldset>
+
+    <legend> <b> Comentarios Adicionales </b></legend>
+
+
+        <p>Escribe aqui tus Comentarios</p>
+
+
+    <textarea name="Escribe aqui tus Comentarios: " id="Escribe aqui tus Comentarios" placeholder="Escribe tu comentario" rows="10" cols="100"></textarea>
+
+
+
+</fieldset>
+
+<p><input type="submit" value="Enviar">
+<input type="reset" value="Resetear"></p>
+
+
+</form>
+
+</body>
+
+</html>
